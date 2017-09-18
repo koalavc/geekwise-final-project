@@ -4,7 +4,7 @@
     margin-right: -7px;
     height: 510px;
     width: auto;
-    border: 1px solid red;
+    /*border: 1px solid red;*/
     overflow-x: scroll;  /**displays the horizontal scroll bar*/
     overflow-y: hidden; /*hides the vertical scroll bar*/
     white-space: nowrap;
@@ -12,21 +12,18 @@
 }
 
 .section-info {
-    border: 1px solid blue;
+    /*border: 1px solid blue;*/
     width: 720px;
     height: 100%;
     margin-left: -4px;
-    /*background: rgba(255, 0, 0, 0.1);*/
     display: inline-block;
 }    
-
 
 .header-text {
     position: absolute;
 }
 
-/****FIRST SECTION ITEM*****/
-
+/**FIRST SECTION ITEM**/
 .header-img {
     position: absolute;
     width: 602px;
@@ -66,7 +63,6 @@
 }
 
 .link-decoration {
-    /*text-decoration: none;*/
     color: #f7f7f7;
 }
 
@@ -78,29 +74,21 @@
     background-image: -o-linear-gradient();
     background-size: 128px 128px, auto;
 }
-
- /*****LAST SECTION ITEM*****/
+/**LAST SECTION ITEM**/
  
 
- 
-/***ABOUT ME SECTION CSS****/
-
-
+/**ABOUT ME SECTION CSS**/
 .gradient2 {
     background-color: #726193;
-   /** background: -webkit-linear-gradient( 45deg, rgba(114, 97, 147, 0.25) 25%, rgba(227, 123, 124, 0.25) 50%, rgba(227, 123, 124, 0.25) 50%
-        45deg, rgba(315, -93, 363, 0.25) 29%, rgba(275, 84, 188, 0.25) 102%, rgba(227, 123, 276, -1.75) 143%
-    );**/
     background-image: url(../images/overlay.png), -webkit-linear-gradient(45deg, rgba(114, 97, 147, 0.25) 25%, rgba(227, 123, 124, 0.25) 50%, rgba(255, 228, 180, 0.25));
     position: relative;
 }
-
 
 .second-second-header {
     position: absolute;
     font-family: 'Raleway';
     color: #f7f7f7;
-    top: 128px;
+    top: 135px;
     left: 248px;
     font-size: 35px;
 }
@@ -131,16 +119,15 @@
     color: #f7f7f7;
     line-height: 170%;
 }
-/***LAST SECTION SECTION CSS****/
+/**LAST SECTION SECTION CSS**/
 
 
-/******SKILLS SECTION CSS*******/
+/**SKILLS SECTION CSS**/
 .skills-info {
-    border: 1px solid blue;
+    /*border: 1px solid blue;*/
     width: 1000px;
     height: 100%;
     margin-left: -4px;
-    /*background: rgba(255, 0, 0, 0.1);*/
     display: inline-block;
 }    
 
@@ -153,60 +140,55 @@
 
 .skills {
     position: relative;
-    width: 300px;
-    height: 300px;
-    border: 1px solid black;
+    width: 900px;
+    /*border: 1px solid black;*/
     top: 10px;
     float: left;
     left: 50px;
-    margin-left: 3.5%;
-    margin-right: 3.5%;
+    /*margin-left: 3.5%;*/
+    /*margin-right: 3.5%;*/
     font-family: 'Raleway', sans-serif;
 }
 
- .skills ul {
-    list-style: none;
-}
-
-.skills-li {
+.skills-h1 {
     color: rgba(255, 255, 255, 0.65);
-    /*font-size: 20px;*/
-}
-
-.skills .skills-list {
-    color: #f7f7f7;
+    font-family: 'Noto Sans';
 }
 
 .skills-header {
     text-align: center;
     color: #f7f7f7;
+    font-size: 45px;
 }
 
-.misc-skills{
-    position: absolute;
-    width: 300px;
-    height: 300px;
-    border: 1px solid black;
-    float: left;
+.skill-favicon {
+  display: inline-block;
+  position: relative;
+  float: left;
+  font-size: 50px;
+  padding-right: 10px;
+  bottom: 4px;
+  color: rgba(255, 255, 255, 0.65);
 }
-
-.test:after {
-  content: "";
-  display: block;
-  clear: both;
-}
-
-
 
 .meter { 
-	height: 9px;  /* Can be anything */
+	height: 10px;  /* Can be anything */
+    width: calc(100% - 250px);
 	position: relative;
 	background: #555;
 	-moz-border-radius: 25px;
 	-webkit-border-radius: 25px;
 	border-radius: 25px;
 	padding: 7px;
-	box-shadow: inset 0 -1px 1px rgba(255,255,255,0.3); 
+    box-shadow: inset 0 -1px 1px rgba(255,255,255,0.3); 
+    display: block;
+    float: right;
+    margin: 6px 0;
+    top: 9px;
+}
+
+.skills ul{
+  list-style: none;
 }
 
 .meter > span {
@@ -229,17 +211,14 @@
   overflow: hidden;
 }
 
-/******LAST SKILL SECTION CSS*******/
+/**END SKILL SECTION CSS**/
 
-
-
-/**************PROJECTS SECTION CSS*******************/
+/**PROJECTS SECTION CSS**/
 .projects-section {
-    border: 1px solid blue;
+    /*border: 1px solid blue;*/
     width: 2035px;
     height: 100%;
     margin-left: -4px;
-    /*background: rgba(255, 0, 0, 0.1);*/
     display: inline-block;
 }    
 
@@ -286,7 +265,7 @@
 }
 
 .project1 {
-    border: 1px solid black;
+    /*border: 1px solid black;*/
     width: 500px;
     height: 450px;
     float: left;
@@ -312,14 +291,11 @@
 .project1 p {
     color: rgba(255, 255, 255, 0.65);
 }
-
-
-/******END OF PROJECTS SECTION CSS******/
-
+/**END OF PROJECTS SECTION CSS**/
 
 /*CONTACT TEXT*/
 .contact-text {
-    border: 1px solid blue;
+    /*border: 1px solid blue;*/
     width: 300px;
     height: 100%;
     margin-left: -4px;
@@ -327,15 +303,12 @@
 }    
 /*END OF CONTACT TEXT*/
 
-
-
 /*CONTACT FORM*/
 .contact-info {
-    border: 1px solid blue;
+    /*border: 1px solid blue;*/
     width: 1040px;
     height: 100%;
     margin-left: -4px;
-    /* background: rgba(255, 0, 0, 0.1); */
     display: inline-block;
 }    
 
@@ -413,7 +386,6 @@
     padding: 12px 20px;
 }
 
-
 .label2{
     position: relative;
     top: 35px;
@@ -433,7 +405,6 @@
     font-family: 'Noto Sans';
     color: rgba(255, 255, 255, 0.875);
 }
-
 
 .textarea-label {
     position: relative;
@@ -460,8 +431,6 @@
     border-color: #ffe4b4;
 }
 
-
-
 .contact-button {
     border-radius: 8px;
     box-shadow: none;
@@ -482,6 +451,7 @@
 
 .contact-container {
     position: absolute;
+    height: 100%;
 }
 
 .row1 {
@@ -489,7 +459,6 @@
     position: relative;
     float: left;
 }
-
 
 /*VERTICAL RULE CSS*/
 .vertical-rule {
@@ -501,7 +470,6 @@
     left: 752px;
 }
 /*END OF VERTICAL RULE CSS*/
-
 
 /*SOCIAL MEDIA LINKS*/
 .inner-media-links {
@@ -519,14 +487,14 @@
     /* border: 1px solid black; */
     /* width: 181px; */
     /* height: 220px; */
-    /* float: right; */
+    float: right;
     position: absolute;
     left: 808px;
     font-family: 'Raleway', sans-serif;
     /* font-size: 14px; */
     /* line-height: 160%; */
     color: #f7f7f7;
-    bottom: 405px;
+    bottom: 140px;
 }
 
 .social-icon {
@@ -545,38 +513,16 @@
 
 /*END OF CONTACT FORM*/
 
-
-
-
-
-.gradient5 {
-    position: relative;
-    background-color: #726193;
-    background: -webkit-linear-gradient( /*45deg, rgba(114, 97, 147, 0.25) 25%, rgba(227, 123, 124, 0.25) 50%, rgba(227, 123, 124, 0.25) 50%*/
-        45deg, rgba(315, -93, 363, 0.25) 29%, rgba(275, 84, 188, 0.25) 102%, rgba(227, 123, 276, -1.75) 143%
-    );
-    background-size: 128px 128px, auto;
-    background: -moz-linear-gradient();
-    background: -o-linear-gradient();
-    background: linear-gradient();
-}
-
-
-
-/*.list-item {*/
-/*  width: 200px;*/
-/*  height: 100%;*/
-/*  background: rgba(255, 0, 0, 0.1);*/
-/*  margin-left: 10px;*/
-/*  display: inline-block;*/
-/*}*/
-
-/*.scroll { */
-/*  height: 100vh;*/
-/*  overflow-x: scroll;*/
-/*  overflow-y: hidden;*/
-/*  white-space: nowrap;*/
-/*  width: auto;*/
+/*.gradient5 {*/
+/*    position: relative;*/
+/*    background-color: #726193;*/
+    /*background: -webkit-linear-gradient(*/ /*45deg, rgba(114, 97, 147, 0.25) 25%, rgba(227, 123, 124, 0.25) 50%, rgba(227, 123, 124, 0.25) 50%
+/*        45deg, rgba(315, -93, 363, 0.25) 29%, rgba(275, 84, 188, 0.25) 102%, rgba(227, 123, 276, -1.75) 143%*/
+/*    );*/
+/*    background-size: 128px 128px, auto;*/
+/*    background: -moz-linear-gradient();*/
+/*    background: -o-linear-gradient();*/
+/*    background: linear-gradient();*/
 /*}*/
 
 /*
